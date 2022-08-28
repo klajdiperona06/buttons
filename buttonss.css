@@ -1,0 +1,35 @@
+.yt-btn{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(36, 87, 255);
+    color: rgb(36, 87, 255);
+    font-size: 15px;
+    font-weight: normal;
+    font-family: arial;
+    text-align: center;   
+    display: flex;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-button{
+    text-decoration: none;
+}
+.yt-btn:hover{
+    background-color: rgb(36, 87, 255);
+    color: white;
+}
+
+.fa-solid{
+    font-size: 25px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+body{
+    background-color: black;
+}
